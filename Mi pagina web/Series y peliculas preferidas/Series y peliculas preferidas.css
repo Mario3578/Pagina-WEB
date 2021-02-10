@@ -1,0 +1,36 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 1;
+    padding: 1;
+}
+
+#article {
+    border: 1px solid orange;
+    width: 60%;
+    background-color: orange;
+}
+
+body > div {
+    border: 1px solid red;
+    margin: 0vh;
+    width: 70%;
+}
+
+header {
+    background-color: royalblue;
+    min-height: 5vh;
+}
+
+main > section:nth-of-type(1) {
+    background-color: seashell;
+    min-height: 70vh;
+    width: 60%;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(179, 133, 49, 0.2);
+    list-style: none;
+    border: orange 1px;
+   
+}
